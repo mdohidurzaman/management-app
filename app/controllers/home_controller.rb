@@ -1,7 +1,6 @@
 class HomeController < ApplicationController
-   
-   def home
-       
-   end
-    
+  skip_before_action :authenticate_tenant!, :only => [ :index ]
+
+  def index
+  end
 end
