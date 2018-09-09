@@ -15,7 +15,7 @@ padding: 5px!important;
 }
 
 a:hover, a:focus {
-color: #000 !important;
+color: #fff !important;
 }
 }
 
@@ -137,4 +137,34 @@ background: none;
 }
 .form-horizontal{
     margin-top:3%;
+}
+
+.fa.fa-rocket {
+background: #fff;
+border: 1px solid white;
+border-radius: 20px;
+color: #3E89B3;
+padding: 6px;
+}
+.user_style{
+  padding-right:10px;
+}
+.logout {
+padding-left: 0;
+}
+
+.navbar.navbar-static-top{
+background: #153B50;
+
+padding-bottom: 5px;
+}
+.navbar-default .navbar-brand{
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover{
+  color: #fff;
+}
+
+.email-address:hover{
+  background: #153B50!important;
 }
