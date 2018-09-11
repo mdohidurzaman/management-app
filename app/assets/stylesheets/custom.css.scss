@@ -60,6 +60,18 @@ background-color: darken(#428bca,20%) !important;
 .btn-primary:visited, .btn-danger:visited {
 color: #fff;
 }
+.btn-default{
+  background-color:#EFB65B;
+  border-color:#EFB65B;
+  color:#fff!important;
+
+}
+.btn-default:hover{
+  background-color:#A37120;
+  border-color:#A37120;
+  color:#fff;
+
+}
 
 .features {
 ul {
